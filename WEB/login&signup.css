@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.wrapper {
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 50px;
+    background-image: url('Webpage Background.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    display: none; 
+}
+
+.signin-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    gap: 60px; 
+}
+
+.signin-container h2{
+    color: #00f;
+    margin-bottom: 10px;
+}
+
+.signin-container .signup-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.signin-container .signup-info .signup-text {
+    margin-right: 10px; 
+    color: #fff;
+    font-size: 0.9em; 
+}
+
+.signin-container form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0;
+    align-items: flex-start;
+}
+
+.signin-container form label {
+    margin: 10px 0 5px;
+}
+
+.signin-container form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none; 
+    border-radius: 5px;
+    box-shadow: none; 
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.signin-container form button {
+    padding: 10px;
+    background-color: #f0a500;
+    border: none; 
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: none; 
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.signin-container form button:hover {
+    background-color: #d48800;
+}
+
+.signin-container .signup-text {
+    color: #fff; 
+    font-size: 0.9em; 
+}
+
+.signin-container .signup-btn {
+    background: none;
+    color: #00f;
+    text-decoration: underline;
+    border: none; 
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-left: 5px;
+    padding: 0; 
+}
+
+.signin-container .signup-btn:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+.signup-btn:hover::after {
+    text-decoration: underline;
+}
+
+.benefits {
+    color: #fff;
+    margin-top: 30px; 
+}
+
+
+.benefits p {
+    margin: 0;
+    font-weight: bold;
+    color: #00f;
+    font-size: 23px;
+}
+
+.benefits ul {
+    list-style: disc;
+    padding: 0 0 0 20px; 
+    margin: 0;
+    text-align: left;
+}
+
+.benefits li {
+    background: none; 
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 0; 
+    box-shadow: none; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-shadow: 2px 2px 8px #000;
+}
+
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 90px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    gap: 40px;
+}
+
+.signup-container h2 {
+    color: #0056b3;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0;
+}
+
+.signup-container form label {
+    margin: 3px 0 5px;
+    font-size: 1em;
+}
+
+.signup-container form input, form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: none;
+    font-size: 1em;
+    text-align: left;
+    width: 235px;
+    box-sizing: border-box;
+}
+
+
+.signup-container form button {
+    padding: 10px;
+    background-color: #f0a500;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: none;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+.signup-container form button:hover {
+    background-color: #d48800;
+}
+
+.signup-container .signup-text {
+    color: #fff;
+    font-size: 1em;
+}
+
+.signup-container .signup-btn {
+    background: none;
+    color: #00f;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.signup-btn:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.signup-btn:hover::after {
+    text-decoration: underline;
+}
