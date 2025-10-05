@@ -63,3 +63,11 @@ Through this project, I strengthened my knowledge of:
 ---
 
 ## Screenshots
+![Guide Page 1 Preview](guide_1.png)
+![Guide Page 2 Preview](guide_2.png)
+![Guide Page 3 Preview](guide_3.png)
+![Ranking Page 1 Preview](ranking_1.png)
+![Ranking Page 2 Preview](ranking_2.png)
+![Log In Preview](log_in.png)
+![Sign Up Preview](sign_up.png)
+
