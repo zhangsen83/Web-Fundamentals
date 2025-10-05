@@ -24,6 +24,7 @@ Other pages (such as the homepage or about page) were developed by my teammates.
 ---
 
 ## 📁 Folder Structure
+```
 website/
 ┣ html/
 ┃ ┣ ranking.html
@@ -37,6 +38,7 @@ website/
 ┃ ┗ script.js
 ┗ img/
   ┗ (all image files)
+```
 
 ---
 
@@ -52,10 +54,11 @@ This project demonstrates fundamental web development skills including:
 
 ## 🏁 Outcome
 Through this project, I strengthened my knowledge of:
-- Web layout design and styling
-- Navigation and linking structure
-- File organization for larger projects
-- Team collaboration and version management using GitHub
+- Responsive Web Design – building clean and visually appealing layouts using HTML and CSS.
+- Navigation & Page Linking – structuring multi-page navigation with consistent design and functionality.
+- File & Project Organization – maintaining a well-structured folder system for HTML, CSS, JS, and image assets.
+- Team Collaboration – coordinating with teammates effectively and managing shared code using GitHub version control.
+- Problem-Solving & Debugging – troubleshooting layout, linking, and styling issues across multiple pages.
 
 ---
 
