@@ -24,6 +24,7 @@ Other pages (such as the homepage or about page) were developed by my teammates.
 ---
 
 ## 📁 Folder Structure
+website/
 ┣ html/
 ┃ ┣ ranking.html
 ┃ ┣ guides.html
@@ -35,7 +36,7 @@ Other pages (such as the homepage or about page) were developed by my teammates.
 ┣ js/
 ┃ ┗ script.js
 ┗ img/
-  ┗ (all images types)
+  ┗ (all image files)
 
 ---
 
